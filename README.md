@@ -31,10 +31,12 @@ Os dados foram obtidos através da biblioteca microdatasus[1], observando o per�
 1. SALDANHA, Raphael de Freitas; BASTOS, Ronaldo Rocha; BARCELLOS, Christovam. Microdatasus: pacote para download e pré-processamento de microdados do Departamento de Informática do SUS (DATASUS). Cad. Saúde Pública, Rio de Janeiro , v. 35, n. 9, e00032419, 2019 . Available from http://ref.scielo.org/dhcq3y.
 <br><br>    
 
+<details><summary>Variáveis originais do dataset:</summary><br>   
+
 ## 2. Estratégia de Solução
 O projeto foi desenvolvido através do método CRISP-DM, para atender os seguintes ciclos:
 
-**Ciclo 01:** Análise do número de leitos durante o período de 2019 a 2022, quantidade total de leitos existentes e total de leitos SUS e declínio da capacidade hospitalar instalada.
+**Ciclo 01:** Análise do número de leitos durante o período de 2019 a 2022, quantidade total de leitos existentes e total de leitos SUS e verificação do declínio ou não da capacidade hospitalar instalada.
 
 **Ciclo 02:** Criar um dashboard do mapa do Estado de Goiás, mostrando a quantidade total de leitos (SUS e não SUS) por município do período de 2019 a 2022.
 
