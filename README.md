@@ -94,7 +94,7 @@ O projeto foi desenvolvido através do método CRISP-DM, para atender os seguint
     <img src = 'images/evolucao-leitos-2019_2022.png'>
 </p>
 <br> 
-Durante o ano de 2019 a distribuição total de leitos permanece praticamente a mesma, variando de 19.050 a 19.200. Esse valor começa a subir depois de declarada a pandemia (Mar/2020). Desse período o número de leitos cresce até Dez/12, mês com a maior quantidade de unidades chegando ao valor de próximo a 23.000. De Jan/22 até Nov/22 os números começam a cair, chegando próximo a 21.000 unidades existentes. 
+Durante o ano de 2019 a distribuição total de leitos permanece praticamente a mesma, variando de 19.050 a 19.200. Esse valor começa a subir depois de declarada a pandemia (Mar/2020)pela OMS. Desse período o número de leitos cresce até Dez/22, mês com a maior quantidade de unidades chegando ao valor de próximo a 23.000. De Jan/22 até Nov/22 os números começam a cair, chegando próximo a 21.000 unidades existentes. 
 
 ### Comparação da quantidade de leitos totais e apenas SUS durante os períodos abaixo:
 <br>
