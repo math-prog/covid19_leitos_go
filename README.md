@@ -131,11 +131,15 @@ Durante esse período, pode-se observar que a quantidade de Leitos SUS gira em t
 
 ## 4. Próximos ciclos:
 <br>
+
 **4.1. Dashboard do Estado de Goias referente a distribuição de leitos por municípios**
 <br>
+
 Essa Etapa trará um dashboard construído na ferramenta plotly, acompanhando o período de Janeiro de 2019 a Novembro de 2022, mostrando os valores totais de Leitos Existentes, Leitos SUS e não SUS por Município, juntamente com um ranking das TOP 5 cidades com maior quantidade de leitos existentes no período selecionado e as TOP 5 cidades com menor quantidade.
 <br>
+
 **4.2. Previsão de Leitos hospitalares para o ano de 2023**
 <br>
+
 Visto que está vindo uma nova onda de COVID-19 para o ano de 2023, montar um modelo de séries temporais em que mostra a quantidade de leitos (Totais e SUS) que haverão para cada mês do ano observado. Para isso, deve-se obter os dados dos casos de COVID-19 no Estado de Goiás durante todo o período analisado para os leitos hospitalares, levando-se em conta casos assintomáticos, sintomas leves, de internação e óbitos, para entender o comportamento da quantidade total de leitos e o que influencia essa variação para a criação de um modelo de previsão para o ano de 2023.
 
