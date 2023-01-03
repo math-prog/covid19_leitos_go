@@ -96,19 +96,27 @@ Durante o ano de 2019 a distribuição total de leitos permanece praticamente a 
 
 ### Comparação da quantidade de leitos totais e apenas SUS durante os períodos abaixo:
 <br>
+
 **Período de Jan/19 a Fev/20:**
+
 <p align='center'>
     <img src = 'images/leitos-2019_2020.png'>
 </p><br>
+
 **Período de Mar/20 a Fev/21:**
+
 <p align='center'>
     <img src = 'images/leitos-2020_2021.png'>
 </p><br>
+
 **Período de Mar/21 a Fev/22:**
+
 <p align='center'>
     <img src = 'images/leitos-2021_2022.png'>
 </p><br>
+
 **Período de Mar/22 a Nov/22:**
+
 <p align='center'>
     <img src = 'images/leitos-mar2022-nov2022.png'>
 </p><br>
