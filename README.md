@@ -22,7 +22,6 @@ O projeto foi desenvolvido para avaliar a evolução da capacidade hospitalar (l
 ### 1.2. Base de dados
     
 Os dados foram obtidos através da biblioteca microdatasus[1], observando o período de Janeiro de 2019 a Novembro de 2022, para entender como estava a capacidade hospitalar do Estado de Goias antes da descoberta do nCoV-2019 em Dezembro de 2019, ocorridos registros na China.  
-<br><br>
     
 1. SALDANHA, Raphael de Freitas; BASTOS, Ronaldo Rocha; BARCELLOS, Christovam. Microdatasus: pacote para download e pré-processamento de microdados do Departamento de Informática do SUS (DATASUS). Cad. Saúde Pública, Rio de Janeiro , v. 35, n. 9, e00032419, 2019 . Available from http://ref.scielo.org/dhcq3y.
 <br><br>    
