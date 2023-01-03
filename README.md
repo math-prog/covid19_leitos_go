@@ -1,12 +1,13 @@
 # DATASUS
-<br>
 
 #  Análise Exploratória sobre a evolução dos leitos hospitalares no Estado de Goiás durante a pandemia de COVID-19.
 O projeto a seguir trata-se de uma análise sobre os leitos hospitalares no estado de Goias, obtidos a partir do repositório DATASUS.
 
 <p align='center'>
     <img src = 'images/Datasus-logo.jpg'>
+</p>
 <br>    
+
 
 ## 1. Sobre o DATASUS
 
