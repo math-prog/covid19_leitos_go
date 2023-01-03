@@ -77,6 +77,7 @@ Os dados foram obtidos através da biblioteca microdatasus[1], observando o per�
 | 32 | MUNICIPIO | STR | Cidade referente ao código do município de estabelecimento   
 </details>    
 <br>
+
 ## 2. Estratégia de Solução
 O projeto foi desenvolvido através do método CRISP-DM, para atender os seguintes ciclos:
 
