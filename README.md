@@ -17,11 +17,12 @@ O DATASUS (Departamento de Informática do Sistema Único de Saúde) é um órg�
 ### 1.1 O problema de negócio
     
 O projeto foi desenvolvido para avaliar a evolução da capacidade hospitalar (leitos) no Estado de Goiás durante a pandemia de COVID-19, entendendo a distribuição de leitos diante do período obtido. A partir dessas análises servirá de base para possíveis cenários do ano de 2023, visto que o número de casos tende a aumentar com a nova onda presente. Abaixo pontos que devem ser esclarecidos pela análise:
-    - Distribuição geográfica dos leitos por municipio antes e depois da pandemia;
-    - Evolução do número de leitos no período;
-    - Observar se em algum momento houve declínio da capacidade hospitalar instalada;
-    - Comparar a quantidade de leitos SUS e não SUS durante o período;
-    - Previsão de leitos para o ano de 2023.
+
+ - Distribuição geográfica dos leitos por municipio antes e depois da pandemia;
+ - Evolução do número de leitos no período;
+ - Observar se em algum momento houve declínio da capacidade hospitalar instalada;
+ - Comparar a quantidade de leitos SUS e não SUS durante o período;
+ - Previsão de leitos para o ano de 2023.
 <br><br>
     
 ### 1.2. Base de dados
