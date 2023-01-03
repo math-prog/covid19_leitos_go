@@ -87,8 +87,28 @@ O projeto foi desenvolvido através do método CRISP-DM, para atender os seguint
 
 ## 3. EDA
 
-**Evolução de Leitos durante os anos de 2019 a 2022**
+### Evolução de Leitos durante os anos de 2019 a 2022 e verificação de declínio hospitalar
 <p align='center'>
     <img src = 'images/evolucao-leitos-2019_2022.png'>
 </p>
 <br> 
+Durante o ano de 2019 a distribuição total de leitos permanece praticamente a mesma, variando de 19.050 a 19.200. Esse valor começa a subir depois de declarada a pandemia (Mar/2020). Desse período o número de leitos cresce até Jan/22, mês com a maior quantidade de unidades chegando ao valor de próximo a 23.000. De Fev/22 até Nov/22 os números começam a cair, chegando próximo a 21.000 unidades existentes. 
+
+### Comparação da quantidade de leitos totais e apenas SUS durante os períodos abaixo:
+<br>
+**Período de Jan/19 a Fev/20:**
+<p align='center'>
+    <img src = 'images/leitos-2019_2020.png'>
+</p><br>
+**Período de Mar/20 a Fev/21:**
+<p align='center'>
+    <img src = 'images/leitos-2020_2021.png'>
+</p><br>
+**Período de Mar/21 a Fev/22:**
+<p align='center'>
+    <img src = 'images/leitos-2021_2022.png'>
+</p><br>
+**Período de Mar/22 a Nov/22:**
+<p align='center'>
+    <img src = 'images/leitos-mar2022-nov2022.png'>
+</p><br>
