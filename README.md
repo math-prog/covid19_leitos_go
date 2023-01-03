@@ -32,6 +32,38 @@ Os dados foram obtidos através da biblioteca microdatasus[1], observando o per�
 <br><br>    
 
 <details><summary>Variáveis originais do dataset:</summary><br>   
+    Abaixo o dicionário de dados, de acordo com a documentação presente no site ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/doc/IT_CNES_1706.pdf.
+
+| SEQ | CAMPO | TIPO E TAM | DESCRIÇÃO |
+|-----|-------|------------|-----------|
+| 1 | CNES | CHAR (7) | Número nacional do estabelecimento de saúde |
+| 2 | CODUFMUN | CHAR (6) | Código do município do estabelecimento UF+ MUNIC (sem dígito)
+| 4 | REGSAUDE | CHAR (6) | Código da região de saúde
+| 5 | MICR_REG | CHAR (4) | Código da micro-região de saúde
+| 6 | DISTRSAN | CHAR (4) | Código do distrito sanitário
+| 7 | DISTRADM | CHAR (1) | Código do distrito administrativo
+| 8 | PF_PJ | CHAR (1) | Indicador de pessoa: 1-Física 3-Jurídica
+| 9 |CPF_CNPJ | CHAR (14) | CPF do Estabelecimento, caso pessoa física OU CNPJ, caso pessoa jurídica
+| 10 | NIV_DEP | CHAR (1) | Grau de dependência: 1-Individual 3-Mantida
+| 11 | CNPJ_MAN | CHAR (14) | CNPJ da mantenedora do Estabelecimento
+| 12 | ESFERA_A | CHAR (2) | Código da esfera administrativa
+| 13 | ATIVIDAD | CHAR (2) | Código da atividade de ensino
+| 14 | RETENCAO | CHAR (2) | Código de retenção de tributos
+| 15 | NATUREZA | CHAR (2) | Código da natureza da organização
+| 16 | CLIENTEL | CHAR (2) | Código de fluxo da clientela
+| 17 | TP_UNID | CHAR (2) | Tipo de unidade (Estabelecimento)
+| 18 | TURNO_AT | CHAR (2) | Código de turno de atendimento
+| 19 | NIV_HIER | CHAR (2) | Código do nível de hierarquia
+| 20 | TERCEIRO | CHAR (1) | O estabelecimento é terceiro: 1-Sim 0-Não
+| 21 | TP_LEITO | CHAR (2) | Tipo do LEITO
+| 22 | CODLEITO | CHAR (2) | Especialidade do LEITO
+| 23 | QT_EXIST | NUMERIC (4) | Quantidade de leitos existentes
+| 24 | QT_CONTR | NUMERIC (4) | Quantidade de leitos contratados
+| 25 | QT_SUS | NUMERIC (4) | Quantidade de leitos para o SUS
+| 26 | QT_NSUS| CHAR(1) | Indicador de EQUIPAMENTO NÃO DISPONÍVEL para o SUS, onde: 1 = SIM 0 = NÃO
+| 27 | COMPETEN | CHAR (6) | Ano e Mês de competência da informação (AAAAMM)
+| 28 | NAT_JUR | CHAR (4) | Natureza Jurídica
+</details>
 
 ## 2. Estratégia de Solução
 O projeto foi desenvolvido através do método CRISP-DM, para atender os seguintes ciclos:
