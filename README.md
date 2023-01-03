@@ -132,7 +132,7 @@ Durante esse período, pode-se observar que a quantidade de Leitos SUS gira em t
 ## 4. Próximos ciclos:
 <br>
 
-**4.1. Dashboard do Estado de Goias referente a distribuição de leitos por municípios**
+**4.1. Dashboard do Estado de Goiás referente a distribuição de leitos por municípios**
 <br>
 
 Essa Etapa trará um dashboard construído na ferramenta plotly, acompanhando o período de Janeiro de 2019 a Novembro de 2022, mostrando os valores totais de Leitos Existentes, Leitos SUS e não SUS por Município, juntamente com um ranking das TOP 5 cidades com maior quantidade de leitos existentes no período selecionado e as TOP 5 cidades com menor quantidade.
