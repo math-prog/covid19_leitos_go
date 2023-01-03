@@ -92,7 +92,7 @@ O projeto foi desenvolvido através do método CRISP-DM, para atender os seguint
     <img src = 'images/evolucao-leitos-2019_2022.png'>
 </p>
 <br> 
-Durante o ano de 2019 a distribuição total de leitos permanece praticamente a mesma, variando de 19.050 a 19.200. Esse valor começa a subir depois de declarada a pandemia (Mar/2020). Desse período o número de leitos cresce até Jan/22, mês com a maior quantidade de unidades chegando ao valor de próximo a 23.000. De Fev/22 até Nov/22 os números começam a cair, chegando próximo a 21.000 unidades existentes. 
+Durante o ano de 2019 a distribuição total de leitos permanece praticamente a mesma, variando de 19.050 a 19.200. Esse valor começa a subir depois de declarada a pandemia (Mar/2020). Desse período o número de leitos cresce até Dez/12, mês com a maior quantidade de unidades chegando ao valor de próximo a 23.000. De Jan/22 até Nov/22 os números começam a cair, chegando próximo a 21.000 unidades existentes. 
 
 ### Comparação da quantidade de leitos totais e apenas SUS durante os períodos abaixo:
 <br>
@@ -120,3 +120,12 @@ Durante o ano de 2019 a distribuição total de leitos permanece praticamente a 
 <p align='center'>
     <img src = 'images/leitos-mar2022-nov2022.png'>
 </p><br>
+
+Durante esse período, pode-se observar que a quantidade de Leitos SUS gira sempre em torno de 59% a 61% da quantidade total de Leitos existentes.
+
+| Tipo de leito | Jan/19 a Fev/20 | Mar/20 a Fev/21 | Mar/21 a Fev/22 | Mar/22 a Nov/22
+|---------------|-----------------|-----------------|-----------------|-----------------|
+| Leitos totais | 19311 | 21500 | 22730 | 21225 |
+| Leitos SUS    | 11521 | 12800 | 13137 | 13099 |
+| Porcentagem   | 59,6% | 59,5% | 57,8% | 61,7% |
+
