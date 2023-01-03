@@ -123,7 +123,7 @@ Durante o ano de 2019 a distribuição total de leitos permanece praticamente a 
 
 Durante esse período, pode-se observar que a quantidade de Leitos SUS gira sempre em torno de 59% a 61% da quantidade total de Leitos existentes.
 
-**| Tipo de leito | Jan/19 a Fev/20 | Mar/20 a Fev/21 | Mar/21 a Fev/22 | Mar/22 a Nov/22|**
+| **Tipo de leito** | **Jan/19 a Fev/20** | **Mar/20 a Fev/21** | **Mar/21 a Fev/22** | **Mar/22 a Nov/22** |
 |---------------|-----------------|-----------------|-----------------|-----------------|
 | Leitos totais | 19.311 | 21.500 | 22.730 | 21.225 |
 | Leitos SUS    | 11.521 | 12.800 | 13.137 | 13.099 |
