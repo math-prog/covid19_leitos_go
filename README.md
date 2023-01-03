@@ -65,7 +65,17 @@ Os dados foram obtidos através da biblioteca microdatasus[1], observando o per�
 | 27 | COMPETEN | CHAR (6) | Ano e Mês de competência da informação (AAAAMM)
 | 28 | NAT_JUR | CHAR (4) | Natureza Jurídica
 </details>
-
+<br>
+<details><summary>Variáveis criadas durante a etapa de Feature Engineering:</summary><br>
+    
+| SEQ | CAMPO | TIPO E TAM | DESCRIÇÃO |
+|-----|-------|------------|-----------|
+| 29 | ANO | DATETIME | Ano da Competência
+| 30 | MES | DATETIME | Mês da Competência    
+| 31 | DIA | DATETIME | Dia da Competência
+| 32 | MUNICIPIO | STR | CIDADE REFERENTE AO CODIGO DO ESTABELECIMENTO    
+</details>    
+<br>
 ## 2. Estratégia de Solução
 O projeto foi desenvolvido através do método CRISP-DM, para atender os seguintes ciclos:
 
