@@ -33,6 +33,7 @@ Os dados foram obtidos através da biblioteca microdatasus[1], observando o per�
 
 <details><summary>Variáveis originais do dataset:</summary><br>   
     Abaixo o dicionário de dados, de acordo com a documentação presente no site ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/doc/IT_CNES_1706.pdf.
+    <br>
 
 | SEQ | CAMPO | TIPO E TAM | DESCRIÇÃO |
 |-----|-------|------------|-----------|
