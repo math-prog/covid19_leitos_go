@@ -81,7 +81,7 @@ Os dados foram obtidos através da biblioteca microdatasus[1], observando o per�
 ## 2. Estratégia de Solução
 O projeto foi desenvolvido através do método CRISP-DM, para atender os seguintes ciclos:
 
-**Ciclo 01:** Análise do número de leitos durante o período de 2019 a 2022, quantidade total de leitos existentes e total de leitos SUS e verificação do declínio ou não da capacidade hospitalar instalada.
+**Ciclo 01:** Análise do número de leitos durante o período de 2019 a 2022, observando quantidade total de leitos existentes e leitos SUS e verificação do declínio ou não da capacidade hospitalar instalada.
 
 **Ciclo 02:** Criar um dashboard do mapa do Estado de Goiás, mostrando a quantidade total de leitos (SUS e não SUS) por município do período de 2019 a 2022.
 
