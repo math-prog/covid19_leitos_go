@@ -1,12 +1,19 @@
+import csv
 import dash
+import json
+import subprocess
 
 import pandas               as pd
 import numpy                as np
-import dash_core_components as dcc 
-import dash_html_components as html
+import seaborn              as sns
+import plotly.express       as px
+import matplotlib.pyplot    as plt
+import plotly.graph_objects as go 
+import plotly.offline       as pyo
 
-from   dash                 import Dash, html, dcc
-from   dash.dependencies    import Input, Output, State
+
+from dash           import Dash, html, dcc
+from urllib.request import urlopen
 
 
 # Initialize App
@@ -22,10 +29,14 @@ app.title = "Unidades Hospitalares do Estado de Goiás ( COVID-19 )"
 server = app.server
 
 # Load data
-df_dash = pd.read_csv("data/processed/dados_processados.csv", sep = ",")
+df = pd.read_csv("data/processed/dados_processados.csv", sep = ",", index_col = 0)
+
+#load geojson
+with urlopen('https://raw.githubusercontent.com/tbrugz/geodata-br/master/geojson/geojs-52-mun.json') as data:
+    geojson_goias = json.load(data)
+
 
 YEARS = [2019, 2020, 2021, 2022]
-
 
 DEFAULT_COLORSCALE = [
     "#f2fffb",
@@ -61,13 +72,55 @@ app.layout = html.Div(
                 html.H4(children="Acompanhamento dos leitos hospitalares do Estado de Goiás"),
                 html.P(
                     id="description",
-                    children="† Deaths are classified using the International Classification of Diseases, \
-                    Tenth Revision (ICD–10). Drug-poisoning deaths are defined as having ICD–10 underlying \
-                    cause-of-death codes X40–X44 (unintentional), X60–X64 (suicide), X85 (homicide), or Y10–Y14 \
-                    (undetermined intent).",
+                    children="Os dados foram obtidos pelo site DATASUS, através da biblioteca R microdatasus [1], analisando os leitos hospitalares no Estado de Goiás dos anos de 2019 a 2022.\
+                    [1] SALDANHA, Raphael de Freitas; BASTOS, Ronaldo Rocha; BARCELLOS, Christovam. Microdatasus: pacote para download e pré-processamento de microdados do\
+                         Departamento de Informática do SUS (DATASUS). Cad. Saúde Pública, Rio de Janeiro , v. 35, n. 9, e00032419, 2019 . Available from http://ref.scielo.org/dhcq3y.",
                 ),
             ],
         ),
+        html.Div(
+            id = "app-Container",
+            children=[
+                html.Div(
+                    id = "left-column",
+                    children=[
+                        html.Div(
+                            id = "slider-text",
+                            children = "Drag the slider to change the year:",
+                        ),
+                        dcc.Slider(
+                            id = "years-slider",
+                            min = df['ANO'].min(),
+                            max = df['ANO'].max(),
+                            value = df['ANO'].min(),
+                            marks = {
+                                str(year): {
+                                    "label": str(year),
+                                    "style": {"color": "#7fafdf"},
+                                }
+                                for year in df['ANO']
+                            },
+                        ),
+                    ],
+                ),
+                html.Div(
+                    id = "heatmap-container",
+                    children = [
+                        html.P( "Mapa de distriuição dos leitos hospitalares no Estado de Goias",
+                        id = "heatmap-title",
+
+                        ),
+                    
+                        dcc.Graph(
+                            id = "county-choropleth",
+
+                        )
+
+                    ]
+                )
+            ],
+        ),
+       
 ])
 
 if __name__ == '__main__':
